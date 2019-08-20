@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="/MiniProyecto3/css/formulario.css">
-    <title>Registro exitoso</title>
-  </head>
-  <body>
-    <?php
-    $servidor = "localhost";
-    $usuario = "root";
-    $clave = 'So76699/#/$"/';
-    $basedatos = "escuela";
-    $link = mysqli_connect($servidor, $usuario, $clave, $basedatos);
+<?php
+    include('../includes/dbconect.php');
     if(!$link)
     {
         echo "<h3>No se ha podido conectar PHP - MySQL, verifique sus datos.</h3><hr><br>";
@@ -35,10 +23,7 @@
       $consulta="INSERT INTO alumnos (MATRICULA, NOMBRE, APP, APM, SEXO, DIRECCION, MPIO, EDO, GRADO, GRUPO, NAC) values
       ('$matricula','$nombre','$app','$apm','$sexo','$direccion','$municipio','$estados','$grado','$grupo','$fecha_N')";
       $res = $link->query($consulta);
-      echo "<h2>Se agregro con exito un alumno<h2>";
-
-      echo "<a href=\"/MiniProyecto3/Alumnos.php\"> Regresar</a> <a href=\"/MiniProyecto3/inicio.html\"> Home</a><BR>";
+      $_SESSION['message']="Registro exitoso";
+      header("Location: \proyect-Schoolnext\Alumnos.php");
     }
-    ?>
-  </body>
-</html>
+?>

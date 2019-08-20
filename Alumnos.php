@@ -1,9 +1,15 @@
 <?php include("db.php"); ?>
+<?php include("includes/dbconect.php");?>
 <?php include("includes/header.php");?>
 <head>
   <title>Alumnos</title>
 </head>
     <!--section formulario-->
+    <?php 
+    if(isset($_SESSION['message'])){
+      echo '<script type="text/javascript"> alert("Registro exitoso"); </script>';
+    } 
+    ?>
     <center>
     <h2>Registro de Alumnos</h2>
     <form class="forgot" action="Registros/registrar_alumnos.php" method="GET">
