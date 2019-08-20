@@ -1,4 +1,7 @@
 <?php include("includes/header.php");?>
+<head>
+   <title>Municipiosi</title>
+</head>
 <center>
     <h2>Registro de Municipios </h2>
     <form class="forgot" action="/MiniProyecto3/Registros/Registrar_municipos.php" method="GET">

@@ -1,4 +1,7 @@
 <?php include("includes/header.php"); ?>
+<head>
+   <title>Inicio</title>
+</head>
 <center><h1>Mini Proyecto 3</h1></center>
   <table style="width:100%">
   <tr>

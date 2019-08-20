@@ -1,4 +1,7 @@
 <?php include("includes/header.php") ?>
+<head>
+   <title>Acistencia</title>
+</head>
    <center>
       <h2>Registro de asistencias</h2>
       <form class="" action="Registros/registro_clases.php" method="GET">

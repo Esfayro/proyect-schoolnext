@@ -1,5 +1,8 @@
 <?php include("db.php"); ?>
 <?php include("includes/header.php");?>
+<head>
+  <title>Alumnos</title>
+</head>
     <!--section formulario-->
     <center>
     <h2>Registro de Alumnos</h2>

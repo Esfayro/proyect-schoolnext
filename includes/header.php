@@ -2,7 +2,6 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Alumnos</title>
     <!-- Seccion para importar hojas de estilos-->
     <link rel="stylesheet" href="styles/MENU.CSS">
     <link rel="stylesheet" href="styles/formulario.css">

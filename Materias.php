@@ -1,4 +1,7 @@
 <?php include("includes/header.php");?>
+<head>
+   <title>Materias</title>
+</head>
 <center>
     <h2>Registro de Materias</h2>
     <form class="forgot" action="registrar_materias.php" method="GET">

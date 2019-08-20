@@ -1,5 +1,8 @@
 <?php include("db.php"); ?>
 <?php include("includes/header.php");?>
+<head>
+   <title>Inscripciones</title>
+</head>
 <center>
     <h2>Inscripciones</h2>
     <form class="forgot" action="/MiniProyecto3/Registros\registrar_inscripiciones.php" method="GET">

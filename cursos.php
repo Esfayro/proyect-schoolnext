@@ -1,5 +1,8 @@
 <?php include("db.php");?>
 <?php include("includes/header.php");?>
+<head>
+   <title>Cursos</title>
+</head>
 <center>
     <h2>Registar Cursos</h2>
     <form class="forgot" action="Registros/registrar_cursos.php" method="GET">

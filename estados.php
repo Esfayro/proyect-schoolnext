@@ -1,4 +1,7 @@
 <?php include("includes/header.php");?>
+<head>
+   <title>Estados</title>
+</head>
 <center>
     <h2>Registro de Estados</h2>
     <form class="forgot" action="Registros/registrar_estados.php" method="GET">
