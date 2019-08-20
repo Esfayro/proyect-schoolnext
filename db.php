@@ -1,8 +1,3 @@
 <?php
-    mysqli_connect(
-        "localhost",
-        "root",
-        "",
-        "escuela"
-    );
+  $mysqli = new mysqli('localhost', 'root', 'So76699/#/$"/', 'escuela');;
 ?>
