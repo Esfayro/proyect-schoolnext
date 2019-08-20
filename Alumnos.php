@@ -3,7 +3,7 @@
     <!--section formulario-->
     <center>
     <h2>Registro de Alumnos</h2>
-    <form class="forgot" action="/MiniProyecto3/Registros/registrar_alumnos.php" method="GET">
+    <form class="forgot" action="Registros/registrar_alumnos.php" method="GET">
       <input type="text" name="Matricula" value="" placeholder="Matricula" maxlength="10" required><br>
       <input type="text" name="Nombre" value="" placeholder="Nombre" maxlength="30" required><br>
       <input type="text" name="APP" value="" placeholder="Apellido Paterno" maxlength="30" required><br>
