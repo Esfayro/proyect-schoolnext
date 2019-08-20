@@ -15,8 +15,8 @@
       <a href="Profesores.php">Profesores</a>
       <a href="Asistencia.php">Asistencias</a>
       <a href="cursos.php">Cursos</a>
-      <a href="Estados.html">Estados</a>
-      <a href="Municipios.html">Municipios</a>
+      <a href="Estados.php">Estados</a>
+      <a href="Municipios.php">Municipios</a>
       <a href="Inscirpiciones.php">Inscripciones</a>
       <a href="Materias.php">Materias</a>
       <a href="/Consultas/Consulta1.php">Reportes</a>
